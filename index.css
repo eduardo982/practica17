@@ -1,0 +1,60 @@
+body{
+    background-color: lightcoral;
+}
+.container{
+    position: relative;
+}
+p{
+    display: none;
+    position: relative;
+}
+@media only screen and (min-width:0px) and (max-width:319px){
+    body{
+        background-color:slateblue;
+    }
+    p{
+        position: absolute;
+        display: block;
+        color: blue;
+        top: 1rem;
+        left: 5rem;
+    } 
+    .container{
+        border: solid black 2px;
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:479px){
+    body{
+        background-color: aqua;
+    }
+    p{
+        position: absolute;
+        display: block;
+        color: red;
+    } 
+    .container{
+        border: solid brown 2px;
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:979px){
+    body{
+        background-color:yellowgreen;
+    }
+    p{
+        position: absolute;
+        display: block;
+        color: magenta;
+    } 
+    .container{
+        border: solid blue 2px;
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+}
